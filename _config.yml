@@ -1,3 +1,6 @@
-title: Student Research Projects 2025-2026
-description: Research project guides for CSUB student researchers
+title: SRSC - Student Research Scholar Club
+description: Student Research Scholar Club at California State University, Bakersfield
 theme: jekyll-theme-minimal
+include:
+  - index.html
+  - style.css
