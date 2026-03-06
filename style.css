@@ -285,6 +285,22 @@ p { margin-bottom: 1rem; }
     text-align: center;
 }
 
+.advisor-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem auto;
+    display: block;
+}
+
+.advisor-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
 .advisor-info h3 {
     font-size: 1.5rem;
     margin-bottom: 0.25rem;
