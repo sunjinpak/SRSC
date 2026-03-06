@@ -286,8 +286,8 @@ p { margin-bottom: 1rem; }
 }
 
 .advisor-photo {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 1.5rem auto;
