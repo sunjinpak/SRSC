@@ -4,3 +4,4 @@ theme: jekyll-theme-minimal
 include:
   - index.html
   - style.css
+  - images

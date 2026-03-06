@@ -352,6 +352,28 @@ p { margin-bottom: 1rem; }
     margin: 0 auto 1rem auto;
 }
 
+.member-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
+
+.member-linkedin {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.member-linkedin:hover {
+    text-decoration: underline;
+}
+
 .member-card h4 {
     font-family: var(--font-body);
     font-size: 1rem;
