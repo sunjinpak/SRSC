@@ -132,13 +132,13 @@ p { margin-bottom: 1rem; }
 .hero-content {
     max-width: 1000px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .hero-photo {
-    flex-shrink: 0;
-    max-width: 420px;
+    max-width: 100%;
 }
 
 .hero-photo img {
@@ -187,7 +187,7 @@ p { margin-bottom: 1rem; }
     max-width: 650px;
 }
 
-.hero-actions { display: flex; gap: 1rem; }
+.hero-actions { display: flex; gap: 1rem; margin-bottom: 2rem; }
 
 .btn {
     display: inline-block;
@@ -307,8 +307,8 @@ p { margin-bottom: 1rem; }
 }
 
 .advisor-photo {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 1.5rem auto;
@@ -376,8 +376,8 @@ p { margin-bottom: 1rem; }
 }
 
 .member-avatar {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background: var(--primary-color);
     color: white;
@@ -390,8 +390,8 @@ p { margin-bottom: 1rem; }
 }
 
 .member-photo {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 1rem auto;
