@@ -469,6 +469,8 @@ p { margin-bottom: 1rem; }
 
 .person-photo {
     width: 72px;
+    min-width: 72px;
+    max-width: 72px;
     height: 72px;
     border-radius: 50%;
     object-fit: cover;
@@ -477,6 +479,8 @@ p { margin-bottom: 1rem; }
 
 .person-avatar {
     width: 72px;
+    min-width: 72px;
+    max-width: 72px;
     height: 72px;
     border-radius: 50%;
     background-color: var(--primary-color);
