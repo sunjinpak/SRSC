@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduate Funding Opportunities | SRSC - CSUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Graduate funding opportunities for Hispanic and Latino students. Scholarships, fellowships, and grants for master's and doctoral programs.">
+    <style>
+        .funding-section {
+            padding: 5rem 0;
+        }
+
+        .funding-intro {
+            max-width: 750px;
+            margin: 0 auto 3rem auto;
+            text-align: center;
+            font-size: 1.05rem;
+            color: var(--light-text);
+            line-height: 1.7;
+        }
+
+        .funding-category {
+            margin-bottom: 3rem;
+        }
+
+        .funding-category h3 {
+            font-family: var(--font-body);
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .funding-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        .funding-table thead {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .funding-table th {
+            font-family: var(--font-body);
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+
+        .funding-table td {
+            padding: 0.75rem 1rem;
+            font-size: 0.95rem;
+            color: var(--text-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .funding-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .funding-table tr:hover td {
+            background-color: var(--light-bg);
+        }
+
+        .funding-table a {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .funding-table a:hover {
+            text-decoration: underline;
+        }
+
+        .funding-resources {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--accent-color);
+        }
+
+        .funding-resources h3 {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 1rem;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+
+        .funding-resources ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .funding-resources li {
+            padding: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .funding-resources li::before {
+            content: "\2192";
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-right: 0.5rem;
+        }
+
+        .funding-resources a {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .funding-resources a:hover {
+            text-decoration: underline;
+        }
+
+        .funding-tips {
+            margin-top: 3rem;
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .funding-tips h3 {
+            text-align: center;
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tip-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-top: 3px solid var(--accent-color);
+        }
+
+        .tip-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-family: var(--font-heading);
+        }
+
+        .tip-card p {
+            font-size: 0.95rem;
+            color: var(--light-text);
+            margin-bottom: 0;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .funding-table {
+                display: block;
+                overflow-x: auto;
+            }
+
+            .tips-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .funding-section {
+                padding: 3rem 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-area">
+                <span class="logo-text">SRSC</span>
+                <span class="logo-sub">Student Research Scholar Club</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#people">People</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#news">News</a></li>
+                    <li><a href="funding.html">Funding</a></li>
+                    <li><a href="index.html#join" class="btn-contact">Join Us</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="funding-section">
+            <div class="container">
+                <a href="index.html" class="back-link">&larr; Back to SRSC</a>
+
+                <h2 class="section-title">Graduate Funding Opportunities for Hispanic Students</h2>
+
+                <p class="funding-intro">Looking into a master's or doctoral program? There are many scholarships, fellowships, and grants specifically designed to support Hispanic and Latino students in graduate school. Below is a curated list of funding opportunities to help you get started.</p>
+
+                <div class="funding-category">
+                    <h3>Major Scholarships</h3>
+                    <table class="funding-table">
+                        <thead>
+                            <tr>
+                                <th>Program</th>
+                                <th>Amount</th>
+                                <th>Eligibility</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.hsf.net/" target="_blank">Hispanic Scholarship Fund (HSF)</a></td>
+                                <td>$500-$5,000</td>
+                                <td>Master's/Doctoral, GPA 2.5+</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://hacu.net/programs/hacu-scholarship-program/" target="_blank">HACU Scholarship Program</a></td>
+                                <td>Varies</td>
+                                <td>Master's/Doctoral</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://gmsp.org/" target="_blank">Gates Millennium Scholars</a></td>
+                                <td>Full tuition</td>
+                                <td>Hispanic and other underrepresented minorities</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="funding-category">
+                    <h3>Field-Specific Scholarships</h3>
+                    <table class="funding-table">
+                        <thead>
+                            <tr>
+                                <th>Program</th>
+                                <th>Field</th>
+                                <th>Eligibility</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://shpe.org/engage/programs/scholarshpe/" target="_blank">ScholarSHPE (SHPE)</a></td>
+                                <td>STEM</td>
+                                <td>Master's/Doctoral, GPA 2.5+, application opens in February</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.prospanica.org/" target="_blank">Prospanica</a></td>
+                                <td>Business/MBA</td>
+                                <td>Master's/Doctoral, GPA 3.0+</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.latinosocialworkcoalition.org/scholarships" target="_blank">Latino Social Work Coalition</a></td>
+                                <td>Social Work (MSW/PhD/DSW)</td>
+                                <td>Latino or bilingual students</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.nhmafoundation.org/nhhf-hispanic-health-professional-student-scholarship" target="_blank">NHHF Hispanic Health Professional Scholarship</a></td>
+                                <td>Medicine, Nursing, Pharmacy, PA</td>
+                                <td>Full-time graduate students, GPA 3.0+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="funding-category">
+                    <h3>Fellowships</h3>
+                    <table class="funding-table">
+                        <thead>
+                            <tr>
+                                <th>Program</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.aahhe.org/" target="_blank">AAHHE Graduate Fellowship</a></td>
+                                <td>Higher education focus, recognized at annual conference</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.aeaweb.org/about-aea/committees/summer-fellows-program" target="_blank">AEA Summer Economics Fellows</a> (NSF-sponsored)</td>
+                                <td>Economics doctoral students, research at Federal Reserve Banks, deadline February 1</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.federalreserve.gov/careers-dissertation-fellows.htm" target="_blank">Federal Reserve Board Dissertation Fellowship</a></td>
+                                <td>Doctoral students, paid 12-week research in Washington DC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="funding-category">
+                    <div class="funding-resources">
+                        <h3>Comprehensive Resources</h3>
+                        <p style="color: var(--light-text); margin-bottom: 1rem;">These websites compile multiple funding opportunities in one place.</p>
+                        <ul>
+                            <li><a href="https://www.profellow.com/fellowships/fellowships-for-hispanic-and-latino-students/" target="_blank">ProFellow - 25 Fellowships for Hispanic and Latino Students</a></li>
+                            <li><a href="https://latinagradguide.com/funding/" target="_blank">A Latina's Guide to Grad School - Funding</a></li>
+                            <li><a href="https://research.com/education/scholarships-for-hispanic-and-latino-students" target="_blank">Research.com - Scholarships for Hispanic and Latino Students</a></li>
+                            <li><a href="https://bold.org/scholarships/by-demographics/minorities/hispanic-students-scholarships/" target="_blank">Bold.org - Hispanic Student Scholarships</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="funding-tips">
+                    <h3>Tips for Applying</h3>
+                    <div class="tips-grid">
+                        <div class="tip-card">
+                            <div class="tip-number">1</div>
+                            <p>Start early. Most deadlines fall between January and March.</p>
+                        </div>
+                        <div class="tip-card">
+                            <div class="tip-number">2</div>
+                            <p>Check your eligibility carefully. Some require membership in a professional organization (e.g., SHPE, Prospanica).</p>
+                        </div>
+                        <div class="tip-card">
+                            <div class="tip-number">3</div>
+                            <p>Apply to multiple programs. Cast a wide net.</p>
+                        </div>
+                        <div class="tip-card">
+                            <div class="tip-number">4</div>
+                            <p>Talk to your advisor or the CSUB Graduate Studies office for additional campus-specific funding.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 3rem;">
+                    <p style="color: var(--light-text);">If you have any questions, feel free to reach out.</p>
+                    <a href="mailto:spak2@csub.edu" class="btn btn-primary">Contact Dr. Pak</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Student Research Scholar Club | California State University, Bakersfield</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            hamburger.classList.toggle('is-active');
+        });
+    </script>
+</body>
+
+</html>
