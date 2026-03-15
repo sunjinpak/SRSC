@@ -694,6 +694,37 @@ p { margin-bottom: 1rem; }
     margin-bottom: 0;
 }
 
+.news-media {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.news-video {
+    flex: 1;
+    min-width: 0;
+}
+
+.news-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.news-photo {
+    flex: 1;
+    border-radius: 8px;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+@media (max-width: 600px) {
+    .news-media {
+        flex-direction: column;
+    }
+}
+
 /* Join / Footer CTA */
 .footer-cta {
     background-color: var(--primary-color);
