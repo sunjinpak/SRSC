@@ -139,10 +139,27 @@
     color: #003882;
     font-size: 8pt;
   }
+  .back-link {
+    text-align: center;
+    margin-bottom: 0.08in;
+  }
+  .back-link a {
+    font-size: 9pt;
+    color: #003882;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  @media print {
+    .back-link { display: none; }
+  }
 </style>
 </head>
 <body>
 
+<div class="back-link"><a href="./">&larr; Back to SRSC Home</a></div>
 <div class="header">
   <h1>CSUB Student Voices at WAM 2026</h1>
   <div class="subtitle">Student Research Scholar Club (SRSC)</div>
