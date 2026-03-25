@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constitution and Bylaws | SRSC - CSUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Constitution and Bylaws of the Student Research Scholar Club at California State University, Bakersfield.">
+    <style>
+        .constitution-section {
+            padding: 5rem 0;
+        }
+
+        .constitution-meta {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .constitution-meta p {
+            font-size: 1.05rem;
+            color: var(--light-text);
+            margin-bottom: 0.25rem;
+        }
+
+        .version-badge {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.3rem 0.8rem;
+            border-radius: 9999px;
+            margin-top: 0.5rem;
+        }
+
+        .constitution-body {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        .article {
+            margin-bottom: 2.5rem;
+        }
+
+        .article:last-child {
+            margin-bottom: 0;
+        }
+
+        .article h3 {
+            font-family: var(--font-body);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .article h4 {
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 0.75rem;
+            margin-top: 1.25rem;
+        }
+
+        .article p {
+            font-size: 0.95rem;
+            color: var(--text-color);
+            margin-bottom: 0.75rem;
+            line-height: 1.7;
+        }
+
+        .article .duties-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 0.5rem;
+        }
+
+        .article .duties-list li {
+            padding: 0.5rem 0 0.5rem 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-color);
+            line-height: 1.6;
+            position: relative;
+        }
+
+        .article .duties-list li::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 0;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .article .duties-list li strong {
+            color: var(--primary-dark);
+        }
+
+        .version-history {
+            max-width: 800px;
+            margin: 3rem auto 0 auto;
+        }
+
+        .version-history h3 {
+            font-family: var(--font-body);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .version-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .version-table thead {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .version-table th {
+            font-family: var(--font-body);
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.6rem 1rem;
+            text-align: left;
+        }
+
+        .version-table td {
+            padding: 0.6rem 1rem;
+            font-size: 0.95rem;
+            color: var(--text-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .version-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .version-table a {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .version-table a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .constitution-section {
+                padding: 3rem 0;
+            }
+
+            .constitution-body {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-area">
+                <span class="logo-text">SRSC</span>
+                <span class="logo-sub">Student Research Scholar Club</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#people">People</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#news">News</a></li>
+                    <li><a href="funding.html">Funding</a></li>
+                    <li><a href="constitution.html">Constitution</a></li>
+                    <li><a href="index.html#join" class="btn-contact">Join Us</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="constitution-section">
+            <div class="container">
+                <a href="index.html" class="back-link">&larr; Back to SRSC</a>
+
+                <h2 class="section-title">Constitution and Bylaws</h2>
+                <div class="constitution-meta">
+                    <p>Student Research Scholar Club</p>
+                    <p>California State University, Bakersfield</p>
+                    <span class="version-badge">Current Version: v1 (2025)</span>
+                </div>
+
+                <div class="constitution-body">
+
+                    <div class="article">
+                        <h3>Article I - Name</h3>
+                        <p><strong>Section 1:</strong> The name of this organization shall be the Student Research Scholar Club at California State University, Bakersfield.</p>
+                        <p><strong>Section 2:</strong> The organization was founded in 2025.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article II - Purpose</h3>
+                        <p><strong>Section 1:</strong> The Student Research Scholar Club at California State University, Bakersfield is dedicated to fostering a culture of academic inquiry and innovation by empowering students to engage in independent and collaborative research. Our mission is to provide opportunities for students to develop research skills, connect with faculty mentors, and present their work through conferences, publications, and campus events. This club will provide a space for exchanging tips and information for preparing for graduate school and supporting students who want to work in academia.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article III - Authority</h3>
+                        <p><strong>Section 1:</strong> This organization is a recognized student organization at California State University, Bakersfield and adheres to all campus policies as set forth in the Runner Source student organizations handbook.</p>
+                        <p><strong>Section 2:</strong> A quorum (at least 30% of active members present, with a minimum of 3 members) is required for official business. Only officers, including the club advisor, may vote on organizational matters.</p>
+                        <p><strong>Section 3:</strong> The rules contained in the most recent version of Robert's Rules of Order, Newly Revised shall be the parliamentary authority for this organization.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article IV - Membership</h3>
+                        <p><strong>Section 1:</strong> Membership shall be open to all regularly enrolled CSU Bakersfield students interested in research and scholarly engagement.</p>
+                        <p><strong>Section 2:</strong> Eligibility for membership or office shall not be limited on the basis of race, ethnicity, religion, nationality, citizenship, age, medical condition, gender, gender identity, gender expression, sexual orientation, marital status, veteran or military status, or disability.</p>
+                        <p><strong>Section 3:</strong> The organization prohibits hazing and any act that injures, degrades, or disgraces any fellow student.</p>
+                        <p><strong>Section 4:</strong> This organization shall comply with Title 5, Section 41301, Standards for Student Conduct.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article V - Officers</h3>
+                        <p><strong>Section 1:</strong> The officers of the organization shall be: President, Vice President, Treasurer, Secretary.</p>
+
+                        <h4>Section 2 - Powers and Duties:</h4>
+                        <ul class="duties-list">
+                            <li data-label="a."><strong>President:</strong> Serves as the chief executive officer; presides over meetings, prepares the meeting minutes document in consultation with team members and the advisor, and shares it with members prior to each meeting. Represents the club and assumes responsibilities of other officers when positions are vacant.</li>
+                            <li data-label="b."><strong>Vice President:</strong> Assumes the duties of President in their absence and assists with leadership responsibilities.</li>
+                            <li data-label="c."><strong>Treasurer:</strong> Manages financial affairs, budgeting, accounting records, prepares monthly reports, and prepares grant applications and funding proposals.</li>
+                            <li data-label="d."><strong>Secretary:</strong> Records meeting minutes, handles correspondence, maintains membership records, manages the club website, organizes meeting agendas and notes, and maintains files including research papers and club documents. The secretary updates a single shared document that contains both past and upcoming meeting minutes based on what was discussed during or after each meeting.</li>
+                        </ul>
+
+                        <p><strong>Section 3 - Qualifications:</strong> Officers must be in good standing with the university and actively enrolled during their term.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article VI - Selection of Officers</h3>
+                        <p><strong>Section 1:</strong> All officers are elected annually. Elections will be held in March. All officer elections must be approved by the faculty advisor before taking effect.</p>
+                        <p><strong>Section 2:</strong> Nominations will be made at the meeting immediately preceding the election or from the floor before voting.</p>
+                        <p><strong>Section 3:</strong> Election order: President, Vice President, Treasurer, Secretary.</p>
+                        <p><strong>Section 4:</strong> Officers are elected by majority vote.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article VII - Meetings</h3>
+                        <p><strong>Section 1:</strong> Regularly scheduled meetings shall be held during the academic year.</p>
+                        <p><strong>Section 2:</strong> Special meetings may be called by the President or majority of the Executive Committee with 24 hours' notice.</p>
+                        <p><strong>Section 3:</strong> A quorum shall consist of a majority of voting members.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article VIII - Advisor</h3>
+                        <p><strong>Section 1:</strong> The organization shall appoint a faculty or staff advisor.</p>
+                        <p><strong>Section 2:</strong> If an advisor is deemed ineffective, they may be removed by majority vote with seven days' notice.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article IX - Executive Committee</h3>
+                        <p><strong>Section 1:</strong> The Executive Committee shall consist of the elected officers and the advisor(s).</p>
+                        <p><strong>Section 2:</strong> The Executive Committee shall meet regularly and as needed.</p>
+                        <p><strong>Section 3:</strong> Business may be conducted via email or online when necessary.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article X - Finances</h3>
+                        <p><strong>Section 1:</strong> The organization may choose to collect membership dues if deemed necessary by a majority vote of the Executive Committee. Dues amount and schedule shall be established at the beginning of each academic year.</p>
+                        <p><strong>Section 2:</strong> Organization funds shall not be used for the purchase of alcohol.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article XI - Discipline of Members</h3>
+                        <p><strong>Section 1:</strong> All complaints involving Title 5 violations will be referred to the Dean of Students.</p>
+                        <p><strong>Section 2:</strong> Other complaints will be investigated by the Executive Committee.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article XII - Amendments</h3>
+                        <p><strong>Section 1:</strong> Proposed amendments must be presented in writing one meeting prior to voting.</p>
+                        <p><strong>Section 2:</strong> Amendments require a two-thirds vote of members present.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article XIII - Dissolution of Assets</h3>
+                        <p><strong>Section 1:</strong> If the club becomes defunct, all funds shall be returned to Associated Students, Inc. (ASI).</p>
+                        <p><strong>Section 2:</strong> All physical assets will also be transferred to ASI for research-related use.</p>
+                    </div>
+
+                    <div class="article">
+                        <h3>Article XIV - Ratification</h3>
+                        <p>President has reviewed this constitution with a majority of members and received majority approval to make this the official governing document.</p>
+                    </div>
+
+                </div>
+
+                <div class="version-history">
+                    <h3>Version History</h3>
+                    <table class="version-table">
+                        <thead>
+                            <tr>
+                                <th>Version</th>
+                                <th>Date</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>v1 (Current)</td>
+                                <td>2025</td>
+                                <td>Original constitution adopted at founding</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Student Research Scholar Club | California State University, Bakersfield</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            hamburger.classList.toggle('is-active');
+        });
+    </script>
+</body>
+
+</html>
