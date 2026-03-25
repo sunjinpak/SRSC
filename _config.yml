@@ -1,5 +1,7 @@
 title: SRSC - Student Research Scholar Club
 description: Student Research Scholar Club at California State University, Bakersfield
+url: https://csubsrsc.com
+baseurl: ""
 theme: jekyll-theme-minimal
 include:
   - index.html
