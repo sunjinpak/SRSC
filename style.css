@@ -840,8 +840,13 @@ p { margin-bottom: 1rem; }
     border-top: 1px solid var(--border-color);
 }
 
+/* Tablet - hide logo subtitle */
+@media (max-width: 1024px) {
+    .logo-sub { display: none; }
+}
+
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .hamburger {
         display: block;
         width: 30px;
@@ -888,8 +893,6 @@ p { margin-bottom: 1rem; }
     .hero-content { flex-direction: column; }
 
     .hero-photo { max-width: 100%; }
-
-    .logo-sub { display: none; }
 
     .hero { padding: 4rem 0; }
 
