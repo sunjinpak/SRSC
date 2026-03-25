@@ -20,6 +20,10 @@ Welcome to the CSUB Student Research Projects portal. Select your project below 
 
 ---
 
+## Club Documents
+
+- [Constitution and Bylaws](constitution.html)
+
 ## Important Links
 
 - [SRC 2026 Application Guidelines](https://www.csub.edu/grasp/_files/SRC-2026-Application-Guidelines.docx)
