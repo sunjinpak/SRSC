@@ -90,14 +90,15 @@ p { margin-bottom: 1rem; }
 
 .nav-list {
     display: flex;
-    gap: 2rem;
+    gap: 1.25rem;
     align-items: center;
 }
 
 .nav-list a {
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: var(--text-color);
+    white-space: nowrap;
 }
 
 .nav-list a:hover { color: var(--primary-color); }
