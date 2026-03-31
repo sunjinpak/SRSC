@@ -79,14 +79,14 @@ Hypothesis 5 predicted that job satisfaction would mediate the relationship betw
 
 | Variable | *M* | *SD* | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1. Leader workaholism | 3.46 | 0.79 | (.90) | | | | | | | |
-| 2. Food safety compliance | 3.95 | 0.64 | -.54** | (.80) | | | | | | |
-| 3. Turnover intention | 2.68 | 0.93 | .65** | -.58** | (.71) | | | | | |
-| 4. After-hours work contact | 3.11 | 0.94 | .75** | -.65** | .69** | (.87) | | | | |
-| 5. Emotional exhaustion | 3.18 | 0.95 | .72** | -.62** | .68** | .76** | (.86) | | | |
-| 6. Job satisfaction | 3.28 | 0.90 | -.66** | .52** | -.65** | -.71** | -.63** | (.73) | | |
-| 7. Age | 42.45 | 12.75 | -.05 | -.04 | .01 | .06 | -.02 | -.06 | - | |
-| 8. Organizational tenure | 11.51 | 9.80 | -.16* | .12 | -.17* | -.14* | -.21** | .10 | .59** | - |
+| 1. Leader workaholism | 3.46 | .79 | (.90) | | | | | | | |
+| 2. Food safety compliance | 3.95 | .64 | -.54** | (.80) | | | | | | |
+| 3. Turnover intention | 2.68 | .93 | .65** | -.58** | (.71) | | | | | |
+| 4. After-hours work contact | 3.11 | .94 | .75** | -.65** | .69** | (.87) | | | | |
+| 5. Emotional exhaustion | 3.18 | .95 | .72** | -.62** | .68** | .76** | (.86) | | | |
+| 6. Job satisfaction | 3.28 | .90 | -.66** | .52** | -.65** | -.71** | -.63** | (.73) | | |
+| 7. Age | 42.45 | 12.75 | -.05 | -.04 | .01 | .06 | -.02 | -.06 | -- | |
+| 8. Organizational tenure | 11.51 | 9.80 | -.16* | .12 | -.17* | -.14* | -.21** | .10 | .59** | -- |
 
 *Note.* *N* = 203. Cronbach's alpha reliability coefficients appear in parentheses along the diagonal.
 
