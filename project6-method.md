@@ -57,17 +57,17 @@ Means, standard deviations, reliabilities, and intercorrelations among study var
 
 ### Hypothesis Tests
 
-Results of the hierarchical regression analyses testing Hypotheses 1-3 are presented in Table 2. Hypothesis 1 predicted that leader workaholism would be negatively related to employee food safety compliance. After controlling for age and organizational tenure, leader workaholism was significantly negatively related to food safety compliance (*B* = -0.42, *SE* = 0.05, *t* = -8.71, *p* < .001, 95% CI [-0.52, -0.33]). The addition of leader workaholism to the model explained an additional 26.7% of variance in food safety compliance (Δ*R*² = .267, *F* change = 75.90, *p* < .001). Hypothesis 1 was supported.
+Results of the hierarchical regression analyses testing Hypotheses 1-3 are presented in Table 2. Hypothesis 1 predicted that leader workaholism would be negatively related to employee food safety compliance. After controlling for age and organizational tenure, leader workaholism was significantly negatively related to food safety compliance (*B* = -.42, *SE* = .05, *t* = -8.71, *p* < .001, 95% CI [-.52, -.33]). The addition of leader workaholism to the model explained an additional 26.7% of variance in food safety compliance (Δ*R*² = .267, *F* change = 75.90, *p* < .001). Hypothesis 1 was supported.
 
-Hypothesis 2 predicted that leader workaholism would be positively related to employee turnover intention. Controlling for covariates, leader workaholism was significantly positively related to turnover intention (*B* = 0.75, *SE* = 0.06, *t* = 11.83, *p* < .001, 95% CI [0.63, 0.88]). The addition of leader workaholism explained an additional 39.3% of variance in turnover intention (Δ*R*² = .393, *F* change = 139.96, *p* < .001). Hypothesis 2 was supported.
+Hypothesis 2 predicted that leader workaholism would be positively related to employee turnover intention. Controlling for covariates, leader workaholism was significantly positively related to turnover intention (*B* = .75, *SE* = .06, *t* = 11.83, *p* < .001, 95% CI [.63, .88]). The addition of leader workaholism explained an additional 39.3% of variance in turnover intention (Δ*R*² = .393, *F* change = 139.96, *p* < .001). Hypothesis 2 was supported.
 
-Hypothesis 3 predicted that after-hours work contact would be positively related to emotional exhaustion. After controlling for covariates, after-hours work contact was significantly positively related to emotional exhaustion (*B* = 0.76, *SE* = 0.05, *t* = 16.04, *p* < .001, 95% CI [0.66, 0.85]). The addition of after-hours work contact explained an additional 53.1% of variance in emotional exhaustion (Δ*R*² = .531, *F* change = 257.32, *p* < .001). Hypothesis 3 was supported.
+Hypothesis 3 predicted that after-hours work contact would be positively related to emotional exhaustion. After controlling for covariates, after-hours work contact was significantly positively related to emotional exhaustion (*B* = .76, *SE* = .05, *t* = 16.04, *p* < .001, 95% CI [.66, .85]). The addition of after-hours work contact explained an additional 53.1% of variance in emotional exhaustion (Δ*R*² = .531, *F* change = 257.32, *p* < .001). Hypothesis 3 was supported.
 
 ### Mediation Analyses
 
-Hypothesis 4 predicted that emotional exhaustion would mediate the relationship between leader workaholism and turnover intention. As shown in Table 3, leader workaholism was significantly positively related to emotional exhaustion (path *a*: *B* = 0.85, *SE* = 0.06, *p* < .001), and emotional exhaustion was significantly positively related to turnover intention controlling for leader workaholism (path *b*: *B* = 0.41, *SE* = 0.07, *p* < .001). The total effect of leader workaholism on turnover intention was significant (*c*: *B* = 0.75, *SE* = 0.06, *p* < .001), and the direct effect remained significant after including the mediator (*c'*: *B* = 0.41, *SE* = 0.08, *p* < .001). The indirect effect through emotional exhaustion was significant (*ab* = 0.35, 95% Boot CI [0.23, 0.47]). Because the direct effect remained significant, the results indicate partial mediation. Hypothesis 4 was supported.
+Hypothesis 4 predicted that emotional exhaustion would mediate the relationship between leader workaholism and turnover intention. As shown in Table 3, leader workaholism was significantly positively related to emotional exhaustion (path *a*: *B* = .85, *SE* = .06, *p* < .001), and emotional exhaustion was significantly positively related to turnover intention controlling for leader workaholism (path *b*: *B* = .41, *SE* = .07, *p* < .001). The total effect of leader workaholism on turnover intention was significant (*c*: *B* = .75, *SE* = .06, *p* < .001), and the direct effect remained significant after including the mediator (*c'*: *B* = .41, *SE* = .08, *p* < .001). The indirect effect through emotional exhaustion was significant (*ab* = .35, 95% Boot CI [.23, .47]). Because the direct effect remained significant, the results indicate partial mediation. Hypothesis 4 was supported.
 
-Hypothesis 5 predicted that job satisfaction would mediate the relationship between leader workaholism and turnover intention. As shown in Table 3, leader workaholism was significantly negatively related to job satisfaction (path *a*: *B* = -0.75, *SE* = 0.06, *p* < .001), and job satisfaction was significantly negatively related to turnover intention controlling for leader workaholism (path *b*: *B* = -0.38, *SE* = 0.07, *p* < .001). The direct effect of leader workaholism on turnover intention remained significant after including the mediator (*c'*: *B* = 0.47, *SE* = 0.08, *p* < .001). The indirect effect through job satisfaction was significant (*ab* = 0.29, 95% Boot CI [0.19, 0.40]). Because the direct effect remained significant, the results indicate partial mediation. Hypothesis 5 was supported.
+Hypothesis 5 predicted that job satisfaction would mediate the relationship between leader workaholism and turnover intention. As shown in Table 3, leader workaholism was significantly negatively related to job satisfaction (path *a*: *B* = -.75, *SE* = .06, *p* < .001), and job satisfaction was significantly negatively related to turnover intention controlling for leader workaholism (path *b*: *B* = -.38, *SE* = .07, *p* < .001). The direct effect of leader workaholism on turnover intention remained significant after including the mediator (*c'*: *B* = .47, *SE* = .08, *p* < .001). The indirect effect through job satisfaction was significant (*ab* = .29, 95% Boot CI [.19, .40]). Because the direct effect remained significant, the results indicate partial mediation. Hypothesis 5 was supported.
 
 ---
 
@@ -102,12 +102,12 @@ Hypothesis 5 predicted that job satisfaction would mediate the relationship betw
 |---|---|---|---|---|---|---|
 | Predictor | *B* (*SE*) | 95% CI | *B* (*SE*) | 95% CI | *B* (*SE*) | 95% CI |
 | **Step 1** | | | | | | |
-| Age | -0.01 (0.00)* | | 0.01 (0.01)* | | 0.01 (0.01) | |
-| Org tenure | 0.01 (0.01)* | | -0.03 (0.01)** | | -0.03 (0.01)*** | |
+| Age | -.01 (.00)* | | .01 (.01)* | | .01 (.01) | |
+| Org tenure | .01 (.01)* | | -.03 (.01)** | | -.03 (.01)*** | |
 | *R*² | .034 | | .049 | | .059 | |
 | **Step 2** | | | | | | |
-| Leader workaholism | -0.42 (0.05)*** | [-0.52, -0.33] | 0.75 (0.06)*** | [0.63, 0.88] | - | - |
-| After-hours contact | - | - | - | - | 0.76 (0.05)*** | [0.66, 0.85] |
+| Leader workaholism | -.42 (.05)*** | [-.52, -.33] | .75 (.06)*** | [.63, .88] | -- | -- |
+| After-hours contact | -- | -- | -- | -- | .76 (.05)*** | [.66, .85] |
 | Δ*R*² | .267*** | | .393*** | | .531*** | |
 | Total *R*² | .301 | | .442 | | .590 | |
 
@@ -124,11 +124,11 @@ Hypothesis 5 predicted that job satisfaction would mediate the relationship betw
 | Path | H4: LW → EE → TI | | H5: LW → JS → TI | |
 |---|---|---|---|---|
 | | *B* (*SE*) | 95% CI | *B* (*SE*) | 95% CI |
-| *a* path (LW → Mediator) | 0.85 (0.06)*** | [0.73, 0.96] | -0.75 (0.06)*** | [-0.87, -0.63] |
-| *b* path (Mediator → TI) | 0.41 (0.07)*** | [0.27, 0.55] | -0.38 (0.07)*** | [-0.52, -0.25] |
-| Total effect (*c*) | 0.75 (0.06)*** | [0.63, 0.88] | 0.75 (0.06)*** | [0.63, 0.88] |
-| Direct effect (*c'*) | 0.41 (0.08)*** | [0.24, 0.57] | 0.47 (0.08)*** | [0.31, 0.62] |
-| Indirect effect (*ab*) | 0.35 | [0.23, 0.47] | 0.29 | [0.19, 0.40] |
+| *a* path (LW → Mediator) | .85 (.06)*** | [.73, .96] | -.75 (.06)*** | [-.87, -.63] |
+| *b* path (Mediator → TI) | .41 (.07)*** | [.27, .55] | -.38 (.07)*** | [-.52, -.25] |
+| Total effect (*c*) | .75 (.06)*** | [.63, .88] | .75 (.06)*** | [.63, .88] |
+| Direct effect (*c'*) | .41 (.08)*** | [.24, .57] | .47 (.08)*** | [.31, .62] |
+| Indirect effect (*ab*) | .35 | [.23, .47] | .29 | [.19, .40] |
 | Mediator model *R*² | .535 | | .450 | |
 | Outcome model *R*² | .523 | | .517 | |
 
@@ -142,11 +142,11 @@ Hypothesis 5 predicted that job satisfaction would mediate the relationship betw
 
 | Hypothesis | Prediction | Result |
 |---|---|---|
-| H1 | Leader workaholism is negatively related to food safety compliance | **Supported** (*B* = -0.42, *p* < .001) |
-| H2 | Leader workaholism is positively related to turnover intention | **Supported** (*B* = 0.75, *p* < .001) |
-| H3 | After-hours work contact is positively related to emotional exhaustion | **Supported** (*B* = 0.76, *p* < .001) |
-| H4 | Emotional exhaustion mediates LW → TI relationship | **Supported** (partial; *ab* = 0.35, CI [0.23, 0.47]) |
-| H5 | Job satisfaction mediates LW → TI relationship | **Supported** (partial; *ab* = 0.29, CI [0.19, 0.40]) |
+| H1 | Leader workaholism is negatively related to food safety compliance | **Supported** (*B* = -.42, *p* < .001) |
+| H2 | Leader workaholism is positively related to turnover intention | **Supported** (*B* = .75, *p* < .001) |
+| H3 | After-hours work contact is positively related to emotional exhaustion | **Supported** (*B* = .76, *p* < .001) |
+| H4 | Emotional exhaustion mediates LW → TI relationship | **Supported** (partial; *ab* = .35, CI [.23, .47]) |
+| H5 | Job satisfaction mediates LW → TI relationship | **Supported** (partial; *ab* = .29, CI [.19, .40]) |
 
 ---
 
